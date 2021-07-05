@@ -9,7 +9,7 @@ h1 {
 .color {
     color: orange;
 }
-section {
+.section {
     display: flex;
     padding: 5%; }
     #p {
@@ -37,3 +37,18 @@ padding-left: 50px ;
     background-repeat: no-repeat;
     background-position: right;
 }
+.shadow {
+    box-shadow:10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.image-area {
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+background-size: 250px;}
